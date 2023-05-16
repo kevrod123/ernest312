@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Biblioteca Virtual</h1>
+    <!-- Formulario de carga de documentos -->
+    <h2>Cargar Documento</h2>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="documento" required>
+        <input type="submit" value="Cargar">
+    </form>
+    
+    <!-- Lista de documentos -->
+    <h2>Documentos</h2>
+    <ul id="documentos-lista">
+        <!-- Aquí se mostrarán los documentos cargados -->
+    </ul>
+
+    <!-- Script JavaScript para mostrar los documentos -->
+    <script src="script.js"></script>
+</body>
+</html>
+
